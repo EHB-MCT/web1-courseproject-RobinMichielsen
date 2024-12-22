@@ -32,7 +32,6 @@ body {
     display: inline;
     margin-right: 150px;
     font-size: 20px;
-    
 }
 
 .navigation li a{
@@ -44,19 +43,29 @@ body {
 
 .wrapper {
     display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin-top: 50px;
+    
 }
-.wrapper img {
-width: 750px;
-margin-left: 100px;
 
+.wrapper img {
+    width: 750px;
+    margin: 20px 0; 
 }
 
 .wrapper h1{
-    margin-top: 150px;
-    margin-left: 20px;
     color: white;
     font-size: 50px;
+    margin: 20px 0; 
+}
+
+.wrapper p {
+    color: white;
+    font-size: 18px; 
+    max-width: 750px; 
+    margin: 20px 0; 
 }
 
 
-        
