@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: "proxima-nova-condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.navigation {
+    width: calc(100% - 20px);
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+  }
+
+  .logo-MaLong {
+    height: 40px;
+}
+
+.navigation ul {
+    margin-right: 5px;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+.navigation li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
